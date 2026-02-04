@@ -1,6 +1,6 @@
 {
   "name": "@cathodique/simple-argv",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "simple process.argv value parser",
   "main": "dist/index.js",
   "repository": {
