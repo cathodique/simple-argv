@@ -1,25 +1,26 @@
 {
-  "name": "simple-argv",
+  "name": "@cathodique/simple-argv",
   "version": "2.0.4",
   "description": "simple process.argv value parser",
-  "main": "argv.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/giowe/simple-argv.git"
+    "url": "git+ssh://git@github.com/cathodique/simple-argv.git"
   },
   "keywords": [
     "argv",
     "yargs"
   ],
-  "author": "Giovanni Bruno",
+  "author": "Juliette Wang <immjs> (forked-from Giovanni Bruno's)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/giowe/simple-argv/issues"
+    "url": "https://github.com/cathodique/simple-argv/issues"
   },
-  "homepage": "https://github.com/giowe/simple-argv#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/cathodique/simple-argv#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
   "devDependencies": {
-    "@soluzioni-futura/eslint-config-soluzioni-futura": "^1.1.0",
-    "eslint": "^7.7.0"
+    "@types/node": "^25.2.0"
   }
 }
